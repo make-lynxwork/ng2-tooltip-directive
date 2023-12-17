@@ -1,14 +1,14 @@
 {
-  "name": "@cloudfactorydk/ng2-tooltip-directive",
-  "version": "16.0.0",
+  "name": "@make-lynxwork/ng2-tooltip-directive",
+  "version": "17.0.0",
   "description": "Tooltip for Angular",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloudfactorydk/ng2-tooltip-directive.git"
+    "url": "git+https://github.com/make-lynxwork/ng2-tooltip-directive.git"
   },
   "author": {
-    "name": "Cloud Factory A/S",
-    "email": ""
+    "name": "Lynxwork AB",
+    "email": "contact@lynxwork.com"
   },
   "keywords": [
     "Angular",
@@ -21,14 +21,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://cloudfactory.dk",
+  "homepage": "https://lynxwork.com/",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloudfactorydk/ng2-tooltip-directive/issues"
+    "url": "https://github.com/make-lynxwork/ng2-tooltip-directive/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^16.0.2",
-    "@angular/core": "^16.0.2"
+    "@angular/common": "^17.0.7",
+    "@angular/core": "^17.0.7"
   },
   "dependencies": {
     "tslib": "^2.0.0"

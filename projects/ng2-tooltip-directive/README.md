@@ -1,5 +1,5 @@
 # Tooltip for Angular
-### forked from drozhzhin-n-e/ng2-tooltip-directive
+### forked from cloudfactorydk/ng2-tooltip-directive
 
 The tooltip is a pop-up tip that appears when you hover over an item or click on it.
 
@@ -7,12 +7,12 @@ The tooltip is a pop-up tip that appears when you hover over an item or click on
 
 Install the npm package.
 
-    npm i @cloudfactorydk/ng2-tooltip-directive
+    npm i @make-lynxwork/ng2-tooltip-directive
         
 Import `Ng2Module`:
 
 ```ts
-import { TooltipModule } from '@cloudfactorydk/ng2-tooltip-directive';
+import { TooltipModule } from '@make-lynxwork/ng2-tooltip-directive';
  
 @NgModule({
     imports: [ TooltipModule ]
@@ -61,7 +61,7 @@ You can pass HTML as content :
 
 Create a file with your settings, for example:
 ```ts
-import { TooltipOptions } from '@cloudfactorydk/ng2-tooltip-directive';
+import { TooltipOptions } from '@make-lynxwork/ng2-tooltip-directive';
 
 export const MyDefaultTooltipOptions: TooltipOptions = {
   'show-delay': 500
@@ -70,7 +70,7 @@ export const MyDefaultTooltipOptions: TooltipOptions = {
     
 And pass your parameters when importing the module:
 ```ts
-import { TooltipModule, TooltipOptions } from '@cloudfactorydk/ng2-tooltip-directive';
+import { TooltipModule, TooltipOptions } from '@make-lynxwork/ng2-tooltip-directive';
 import { MyDefaultTooltipOptions } from './my-default-options';
  
 @NgModule({
