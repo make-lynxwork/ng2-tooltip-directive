@@ -21,6 +21,6 @@ jobs:
       - name: cd dist & npm publish
         run: |
           cd ./dist/ng2-tooltip-directive
-          npm publish
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
