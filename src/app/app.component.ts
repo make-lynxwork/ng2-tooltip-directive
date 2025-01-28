@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     standalone: false
 })
 export class AppComponent {
+  title = 'tooltipNg12App';
   handleTooltipEvents(event:string){
     console.log(event);
   }
