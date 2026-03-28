@@ -1,6 +1,6 @@
 {
   "name": "@make-lynxwork/ng2-tooltip-directive",
-  "version": "20.0.5",
+  "version": "21.2.6",
   "description": "Tooltip for Angular",
   "repository": {
     "type": "git",
@@ -27,8 +27,8 @@
     "url": "https://github.com/make-lynxwork/ng2-tooltip-directive/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^20.3.4",
-    "@angular/core": "^20.3.4"
+    "@angular/common": "^21.2.6",
+    "@angular/core": "^21.2.6"
   },
   "dependencies": {
     "tslib": "^2.4.0"
